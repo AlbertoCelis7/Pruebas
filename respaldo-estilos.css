@@ -1,0 +1,187 @@
+/*
+ * notices
+ */
+/*
+ * statuses
+ */
+/*
+ * priority
+ */
+/* delete when bootstrap variables are available */
+
+.border-comments {
+  /** border: 1px groove #D8D8D8;**/
+
+  padding-top: 5px;
+  /**border-radius: 8px;**/
+
+  padding-bottom: 5px;
+}
+.color-time {
+  color: #A4A4A4;
+}
+.comments-and-files {
+  border-radius: 8px;
+}
+.fondo-persona1 {
+  /**background-color: #E6E6E6;**/
+
+  /**border-radius: 8px;**/
+
+  padding-left: 5px;
+  padding-top: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.fondo-persona2 {
+  /** background-color: #0088cc;**/
+
+  color: white;
+  padding-left: 5px;
+  padding-top: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.hover-comments-persona1:hover {
+  /** background-color: #F2F2F2;**/
+
+}
+.hover-comments-persona2:hover {
+  /**background-color: #58ACFA;**/
+
+}
+.link-blanco a {
+  color: white;
+}
+
+.inside-comment {
+  display: inline;
+}
+.padding-group-btn {
+  margin-left: 30px;
+  padding-top: 8px;
+}
+.padding-personas {
+  padding-top: 20px;
+}
+
+.padding-icon {
+  margin-right: 15px;
+}
+
+/**
+.........................................................................................
+.........................................................................................
+....................@media queries.......................................................
+**/
+
+@media screen and (min-width: 791px) and (max-width: 960px) {
+  .border-comments {
+    border: 0px;
+  }
+  .span2 {
+    width: 20% !important;
+    display: inline;
+    float: left !important;
+  }
+  .span8 {
+    width: 60% !important;
+    display: inline;
+    float: left !important;
+    min-height: 65px;
+
+
+  }
+  .row-fluid {
+    width: 100% !important;
+    float: left !important;
+  }
+}
+@media screen and (min-width: 961px) {
+  .border-comments {
+    border: 0px;
+  }
+  .comments-and-files {
+    /**border-radius: 8px;**/
+  
+  }
+  .span8 {
+    min-height: 65px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .border-comments {
+    border: 0px;
+  }
+  .comments-and-files {
+    border: 1px groove #D8D8D8;
+    border-radius: 8px;
+  }
+  .span2 {
+    width: 20% !important;
+    display: inline;
+    float: left !important;
+  }
+  .span8 {
+    width: 60% !important;
+    display: inline;
+    float: left !important;
+    min-height: 65px;
+  }
+  .row-fluid {
+    width: 100% !important;
+    float: left !important;
+  }
+  .padding-personas2 {
+    padding-left: 10px;
+  }
+}
+
+.globo-azul {
+  position: relative;
+  width: 95%;
+  height: 62px;
+  padding: 0px;
+  background: #0088cc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.globo-azul:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: -22px;
+  border-style: solid;
+  border-width: 13px 0 13px 22px;
+  border-color: transparent #0088cc;
+  display: block;
+  width: 0;
+  z-index: 1;
+}
+.globo-gris {
+  position: relative;
+  width: 95%;
+  height: 62px;
+  padding: 0px;
+  background: #E6E6E6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.globo-gris:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -22px;
+  border-style: solid;
+  border-width: 13px 22px 13px 0;
+  border-color: transparent #E6E6E6;
+  display: block;
+  width: 0;
+  z-index: 1;
+}
